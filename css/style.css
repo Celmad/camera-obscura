@@ -5,7 +5,7 @@
 	Magenta: #BD4374;
 */
 
-@import 'https://fonts.googleapis.com/css?family=Roboto';
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Roboto');;
 
 /* Global */
 html, body {
@@ -18,4 +18,110 @@ ul, ol {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+/* provisional stylying for floor's title */
+h2 {
+	color: #BD4374;
+	text-align: center;
+}
+
+/* Navbar */
+.navbar-default {
+	font-family: Roboto;
+	background-color: #555;
+	padding: 30px 30px 160px 30px;
+	margin: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 35px;
+	color: #F1F1F1;
+}
+.navbar-default .navbar-brand #logo-edinburgh {
+	font-family: 'Great Vibes';
+}
+.navbar-default .navbar-brand #logo-camera {
+	color: #22A9E1;
+	font-weight: bold;
+}
+.navbar-default .navbar-brand #logo-obscura {
+	color: #BD4374;
+	font-weight: bold;
+}
+
+
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #F1F1F1;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #F1F1F1;
+	font-size: 16px;
+	padding: 5px;
+	margin-left: 20px;
+	border-bottom: 2px solid #555;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #22A9E1;
+	border-bottom: 2px solid #22A9E1;
+	transition: 250ms;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #22A9E1;
+	background-color: #555;
+	border-bottom: 2px solid #22A9E1;
+}
+
+.navbar-default h1 {
+	font-family: Roboto;
+	text-align: center;
+	color: #F1F1F1;
+	margin-top: 100px;
+	font-size: 70px;
+}
+
+/* Blank space while building the site */
+.space {
+	height: 500px;
+}
+
+/* Footer */
+.footer {
+	padding: 40px;
+	color: #F1F1F1;
+	background-color: #555;
+	font-weight: 400;
+}
+.footer a:hover,
+.footer a:focus {
+	color: #22A9E1;
+	text-decoration: none;
+}
+.footer-contact div {
+	margin-bottom: 20px;
+}
+.footer-contact p {
+	margin-bottom: 0;
+}
+
+.footer-logo {
+	font-size: 35px;
+}
+.footer-logo #footer-edinburgh {
+	font-family: 'Great Vibes';
+	margin-bottom: -20px;
+}
+.footer-logo #footer-camera {
+	color: #22A9E1;
+	font-weight: bold;
+}
+.footer-logo #footer-obscura {
+	color: #BD4374;
+	font-weight: bold;
 }
