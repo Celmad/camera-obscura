@@ -1,11 +1,11 @@
-/* Reset */
-* {
-	padding: 0;
-	border: 0;
-	margin: 0;
-	font-size: 62.5%;
-	font: inherit;
-}
+/* Colours 
+	White: #F1F1F1;
+	Dark Grey: #333;
+	Blue: #22A9E1;
+	Magenta: #BD4374;
+*/
+
+@import 'https://fonts.googleapis.com/css?family=Roboto';
 
 /* Global */
 html, body {
