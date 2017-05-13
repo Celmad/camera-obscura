@@ -130,6 +130,16 @@ h2 {
 	height: 500px;
 }
 
+/* Contact Us */
+.contact-info {
+	padding: 50px;
+	text-align: center;
+}
+.contact-info h4 {
+	color: #BD4374;
+}
+
+
 /* Footer */
 .footer {
 	padding: 40px;
