@@ -22,6 +22,9 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+i { /* margin for Font Awesome icons */
+	margin: 0 5px;
+}
 /* provisional stylying for floor's title */
 h2 {
 	color: #BD4374;
@@ -151,18 +154,23 @@ h2 {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.buttons {
+.floor-links {
 	font-family: Roboto;
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-}
-.btn-group {
-	padding: 20px 30px;
 	font-size: 16px;
+	padding: 50px;
+	text-align: center;
+	color: #22A9E1;
 }
-.btn-group i {
-	margin: 0 5px;
+.floor-links a {
+	padding: 20px;
+	text-decoration: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.floor-links a:hover,
+.floor-links a:focus {
+	color: #F1F1F1;
+	background-color: #22A9E1;
+	transition: 300ms;
 }
 
 
@@ -189,13 +197,23 @@ form {
 	width: 70%;
 	margin: auto;
 	font-family: Roboto;
+	font-size: 16px;
 }
 form label {
 	color: #333;
 }
-form .btn.btn-default {
+form .submit {
+	color: #22A9E1;
+	padding: 10px 30px;
+	text-decoration: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 0;
+}
+form .submit:hover,
+form .submit:focus {
 	color: #F1F1F1;
 	background-color: #22A9E1;
+	transition: 300ms;
 }
 
 
