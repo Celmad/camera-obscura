@@ -133,6 +133,39 @@ h2 {
 	height: 500px;
 }
 
+/* Floors */
+.floor {
+	font-family: Roboto;
+}
+.floor h3 {
+	margin-top: 0;
+	color: #BD4374;	
+}
+.floor p {
+	font-size: 16px;
+}
+.floor .col-md-6 {
+	padding: 50px 50px 0 50px;
+}
+.floor .img-responsive {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.buttons {
+	font-family: Roboto;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.btn-group {
+	padding: 20px 30px;
+	font-size: 16px;
+}
+.btn-group i {
+	margin: 0 5px;
+}
+
+
 /* Contact Us */
 .contact-info {
 	padding: 50px;
@@ -168,10 +201,11 @@ form .btn.btn-default {
 
 /* Footer */
 .footer {
-	padding: 40px;
+	padding: 50px;
 	color: #F1F1F1;
 	background-color: #333;
 	font-weight: 400;
+	margin-top: 50px;
 }
 .footer a:hover,
 .footer a:focus {
