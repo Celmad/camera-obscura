@@ -179,10 +179,12 @@ header section a:focus {
 }
 .floor h3 {
 	margin-top: 0;
-	color: #BD4374;	
+	color: #BD4374;
+	text-align: left;
 }
 .floor p {
 	font-size: 16px;
+	text-align: left;
 }
 .floor .col-md-6 {
 	padding: 50px 50px 0 50px;
