@@ -146,7 +146,12 @@ header section a:focus {
 	color: #F1F1F1;
 	background-color: #22A9E1;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	transition: 300ms;
+	transition: 400ms;
+}
+
+.floors-thumbnails .thumbnail:hover .caption,
+.floors-thumbnails .thumbnail:focus .caption {
+	color: #F1F1F1;
 }
 
 .news {
