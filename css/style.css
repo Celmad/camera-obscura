@@ -137,6 +137,48 @@ h2 {
 	height: 500px;
 }
 
+/* Discover */
+.floors-thumbnails {
+	padding: 50px;
+}
+.floors-thumbnails .thumbnail {
+	padding: 0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.floors-thumbnails .btn {
+	font-size: 16px;
+	font-family: Roboto;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: #22A9E1;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.floors-thumbnails .btn:hover {
+	color: #F1F1F1;
+	background-color: #22A9E1;
+	transition: 300ms;
+}
+
+.news {
+	height: 300px;
+	width: 100%;
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.news h1 {
+	font-family: Roboto;
+	color: #F1F1F1;
+	font-size: 70px;
+}
+.social {
+	padding: 50px;
+}
+.col-md-6 {
+	text-align: center;
+}
+
 /* Floors */
 .floor {
 	font-family: Roboto;
