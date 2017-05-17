@@ -33,7 +33,6 @@ h2 {
 }
 
 /* Home */
-
 header {
 	height: 100vh;
 	background-image: url('../images/home-background2.JPG');
@@ -61,6 +60,7 @@ header section {
 	font-family: 'Great Vibes';
 	color: #F1F1F1;
 	font-size: 40px;
+	font-weight: 400;
 	margin-top: 100px;
 }
 header section a {
@@ -98,9 +98,6 @@ header section a:focus {
 	color: #BD4374;
 	font-weight: bold;
 }
-
-
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #F1F1F1;
@@ -236,6 +233,7 @@ header section a:focus {
 .time-price {
 	text-align: right;
 }
+
 /* Contact Us */
 .contact-info {
 	padding: 50px;
@@ -281,7 +279,6 @@ form .submit:focus {
 	background-color: #22A9E1;
 	transition: 300ms;
 }
-
 
 /* Footer */
 .footer {
