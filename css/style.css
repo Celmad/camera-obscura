@@ -33,41 +33,43 @@ h2 {
 }
 
 /* Home */
-.home {
+
+header {
 	height: 100vh;
-	/*background-image: url('../images/home-background2.JPG');*/
-	background-color: #333; /* Provisional grey background while we find a better image */
+	background-image: url('../images/home-background2.JPG');
+	/*background-color: #333;*/
 	background-size: cover;
 	background-position: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	/*align-items: center;*/
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	color: #F1F1F1;
 }
-.home h1 {
+header h1 {
 	font-family: Roboto;
-	font-size: 10rem;
+	font-size: 100px;
 	font-weight: bold;
 	color: #22A9E1;
-	padding-top: 60px;
 }
-.home h1 .obscura {
+header p {
+	font-family: Roboto;
+	font-size: 40px;
 	color: #BD4374;
 }
-.home nav {
+header section {
 	font-family: 'Great Vibes';
-	font-size: 4rem;
-	display: flex;
-	justify-content: space-around;
+	color: #F1F1F1;
+	font-size: 40px;
+	margin-top: 100px;
 }
-.home nav a {
-	text-decoration: none;
+header section a {
+	padding: 50px;
 	transition: 300ms;
 }
-.home nav a:hover,
-.home nav a:focus {
+header section a:hover,
+header section a:focus {
+	text-decoration: none;
 	color: #22A9E1;
 }
 
