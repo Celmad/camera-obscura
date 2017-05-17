@@ -166,6 +166,7 @@ header section a:focus {
 	font-family: Roboto;
 	color: #F1F1F1;
 	font-size: 70px;
+	text-align: center;
 }
 .social {
 	padding: 50px;
