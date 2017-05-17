@@ -270,13 +270,13 @@ form .submit {
 	color: #22A9E1;
 	padding: 10px 30px;
 	text-decoration: none;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 0;
 }
 form .submit:hover,
 form .submit:focus {
 	color: #F1F1F1;
 	background-color: #22A9E1;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	transition: 300ms;
 }
 
