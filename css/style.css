@@ -320,3 +320,42 @@ form .submit:focus {
 	color: #BD4374;
 	font-weight: bold;
 }
+
+/* Media Queries */
+
+/* Home */
+@media all and (max-width: 850px) {
+	header h1 {
+		font-size: 80px;
+	}
+	header p {
+		font-size: 30px;
+	}
+	header section {
+		margin-top: 40px;
+	}
+	header section a {
+		padding: 15px;
+	}
+}
+@media all and (max-width: 600px) {
+	header section {
+		font-size: 28px;
+	}
+}
+@media all and (max-width: 500px) {
+	header section {
+		font-size: 25px;
+	}
+}
+@media all and (max-width: 380px) {
+	header h1 {
+		font-size: 60px;
+	}
+	header p {
+		font-size: 25px;
+	}
+	header section a {
+		padding: 10px;
+	}
+}
