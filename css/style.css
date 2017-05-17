@@ -348,6 +348,16 @@ form .submit:focus {
 	header section {
 		font-size: 25px;
 	}
+
+	.floor-links {
+		padding: 20px;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	.floor-links a {
+		display: inline-block;
+		margin: 5px;
+	}
 }
 @media all and (max-width: 380px) {
 	header h1 {
