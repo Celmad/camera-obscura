@@ -133,7 +133,7 @@ header section a:focus {
 
 /* Discover */
 .floors-thumbnails {
-	padding: 50px;
+	padding: 100px;
 	text-align: center;
 }
 .floors-thumbnails .thumbnail {
@@ -178,7 +178,7 @@ header section a:focus {
 /* Floors */
 .floor {
 	font-family: Roboto;
-	padding: 100px;
+	padding: 100px
 }
 .floor h3 {
 	margin-top: 0;
