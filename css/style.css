@@ -338,6 +338,13 @@ form .submit:focus {
 	header section a {
 		padding: 15px;
 	}
+
+	.floor-thumbnails {
+		padding: 50px;
+	}
+	.floor {
+		padding: 50px;
+	}
 }
 @media all and (max-width: 600px) {
 	header section {
