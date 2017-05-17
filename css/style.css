@@ -343,6 +343,10 @@ form .submit:focus {
 	header section {
 		font-size: 28px;
 	}
+
+	.navbar-default .navbar-brand {
+		font-size: 30px;
+	}
 }
 @media all and (max-width: 500px) {
 	header section {
@@ -358,6 +362,10 @@ form .submit:focus {
 		display: inline-block;
 		margin: 5px;
 	}
+
+	.navbar-default .navbar-brand {
+		font-size: 20px;
+	}
 }
 @media all and (max-width: 380px) {
 	header h1 {
@@ -368,5 +376,9 @@ form .submit:focus {
 	}
 	header section a {
 		padding: 10px;
+	}
+	
+	#logo-edinburgh {
+		display: none;
 	}
 }
