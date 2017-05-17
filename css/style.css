@@ -132,11 +132,6 @@ h2 {
 	font-size: 70px;
 }
 
-/* Blank space while building the site */
-.space {
-	height: 500px;
-}
-
 /* Discover */
 .floors-thumbnails {
 	padding: 50px;
@@ -217,15 +212,40 @@ h2 {
 	transition: 300ms;
 }
 
-
+/* Your visit */
+.your-visit {
+	padding: 50px;
+}
+.your-visit h4 {
+	color: #BD4374;
+	font-family: Roboto;
+	font-size: 20px;
+}
+.your-visit .col-md-6 {
+	padding: 20px;
+}
+.your-visit p {
+	display: inline-block;
+	font-family: Roboto;
+	font-size: 16px;
+}
+.day-category {
+	text-align: left;
+	font-weight: bold;
+}
+.time-price {
+	text-align: right;
+}
 /* Contact Us */
 .contact-info {
 	padding: 50px;
 	text-align: center;
 	font-family: Roboto;
+	font-size: 16px;
 }
 .contact-info h4 {
 	color: #BD4374;
+	font-size: 20px;
 }
 
 .contact-image {
