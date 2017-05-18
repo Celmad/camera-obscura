@@ -215,6 +215,14 @@ header section a:focus {
 	transition: 300ms;
 }
 
+.floor .row .text-floor .discover-rooftop {
+	list-style-type: disc;
+}
+
+.floor .row .text-floor .discover-rooftop li {
+	text-align: left;
+}
+
 /* Your visit */
 .your-visit {
 	padding: 50px;
