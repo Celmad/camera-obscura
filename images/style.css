@@ -261,7 +261,7 @@ header section a:focus {
 }
 
 .contact-image {
-	background: url('../images/contact-us.JPG');
+	background: url('../images/contact-us.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 400px;
