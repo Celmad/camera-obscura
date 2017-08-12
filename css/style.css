@@ -35,7 +35,7 @@ h2 {
 /* Home */
 header {
 	height: 100vh;
-	background-image: url('../images/home-background2.JPG');
+	background-image: url('../images/magic.jpg');
 	/*background-color: #333;*/
 	background-size: cover;
 	background-position: center;
@@ -50,11 +50,12 @@ header h1 {
 	font-size: 100px;
 	font-weight: bold;
 	color: #22A9E1;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header p {
 	font-family: Roboto;
 	font-size: 40px;
-	color: #BD4374;
+	color: #fff;
 }
 header section {
 	font-family: 'Great Vibes';
@@ -64,13 +65,15 @@ header section {
 	margin-top: 100px;
 }
 header section a {
-	padding: 50px;
+	padding: 10px 50px;
 	transition: 300ms;
 }
 header section a:hover,
 header section a:focus {
 	text-decoration: none;
-	color: #22A9E1;
+	/*color: #22A9E1;*/
+	border-bottom: 2px solid #fff;
+	color: #fff;
 }
 
 /* Navbar */
@@ -81,6 +84,7 @@ header section a:focus {
 	margin: 0;
 	border: 0;
 	border-radius: 0;
+	background-image: url('../images/color.jpg');
 }
 
 .navbar-default .navbar-brand {
@@ -107,19 +111,18 @@ header section a:focus {
 	font-size: 16px;
 	padding: 5px;
 	margin-left: 20px;
-	border-bottom: 2px solid #333;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #22A9E1;
-	border-bottom: 2px solid #22A9E1;
+    color: #BD4374;
+	border-bottom: 2px solid #BD4374;
 	transition: 250ms;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #22A9E1;
-	background-color: #333;
+	background-color: transparent;
 	border-bottom: 2px solid #22A9E1;
 }
 
