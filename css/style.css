@@ -278,6 +278,11 @@ form {
 	font-family: Roboto;
 	font-size: 16px;
 }
+
+.form-control {
+	height: 50px;
+}
+
 form label {
 	color: #333;
 }
